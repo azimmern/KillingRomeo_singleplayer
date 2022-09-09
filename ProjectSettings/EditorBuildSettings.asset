@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: def9aad3949c09c4e96adfb4066baf0c
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Scene.unity
+    guid: f51752e07a23d8f4f948c4d1e9351104
+  - enabled: 1
+    path: Assets/Scenes/Game Scene.unity
+    guid: 313edcf679ce2e445a8e96ba0472d74f
+  - enabled: 1
+    path: Assets/Scenes/Game Over - Win.unity
+    guid: 9110b93911598784a875a26464b42e15
+  - enabled: 1
+    path: Assets/Scenes/Game Over - Lose.unity
+    guid: 553b465e5e67560499bd8135ffc68732
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2956f08b85f0c504580a2c612fbdca50,
       type: 2}
