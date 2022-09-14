@@ -379,6 +379,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/GameSceneScripts/LoadGameOver.cs"
+"Assets/Scripts/GameSceneScripts/PanelsManager.cs"
 "Assets/Scripts/Global Scripts/LoadMainMenu.cs"
 "Assets/Scripts/MainMenuScripts/LoadGame.cs"
 "Assets/Scripts/MainMenuScripts/LoadTutorial.cs"
