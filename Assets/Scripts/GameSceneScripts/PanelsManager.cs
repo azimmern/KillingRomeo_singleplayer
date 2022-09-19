@@ -13,9 +13,14 @@ public class PanelsManager : MonoBehaviour
     public GameObject[] PanelsArray;
     public int panelIndex;
     public bool panelsOn;
+    public BoolVariable PotionIsDone;
     public GameObject fortyDucatsPrefab;
+    public AudioSource fortyDucatsSound;
+    public AudioSource knockKnockSound;
+    private bool knockKnockOff = true;
     private Vector3 spawnPoint = new Vector3(5.75f,0.75f,5.29f);
     private float waitTime = 2f;
+    
     
 
 //Before the game even starts, we turn all of the panels off, set the boolean value panelsOn to false, and set panelIndex to 0
@@ -31,8 +36,7 @@ public class PanelsManager : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {  
         //Eventually, we will want to check if the Global static bool weHaveAPotion = true 
         // and if it is, we set the first panel active.
         // That should look something like this:
@@ -40,16 +44,41 @@ public class PanelsManager : MonoBehaviour
         // if (weHaveAPotion == true ) -> PanelsArray[panelIndex].SetActive(true);
 
         //For the moment and for testing, I am using a public boolean "panelsOn" like an on/off switch.
-        if (panelsOn == true)
+        LoadFirstPanel();
+    }
+
+    public void LoadFirstPanel()
+    {
+        // if (GlobalVariables.weHaveAPotion == true)
+        // {
+        //     PanelsArray[panelIndex].SetActive(true);
+
+        //     //
+            
+        //     if (panelIndex == 0 && knockKnockOff == true)
+        //     {
+        //     StartCoroutine(KnockKnock());
+        //     knockKnockOff = false;
+        //     }
+        // }
+        if (PotionIsDone.value == true)
         {
             PanelsArray[panelIndex].SetActive(true);
+
+            //
+            
+            if (panelIndex == 0 && knockKnockOff == true)
+            {
+            StartCoroutine(KnockKnock());
+            knockKnockOff = false;
+            }
         }
     }
 
     public void LoadNextPanel()
     {
-        //This function/method must be set as an OnClick() function of every Button
-        // in every Panel of the array. Otherwise, this whole sequence fails.
+        //This function/method is not called in Update() but is set as an OnClick() function 
+        // of every Button in the Ethics Questions sequence.
         //Begin by checking that the panelIndex is still within the Array
         if (panelIndex < PanelsArray.Length)
         { 
@@ -64,12 +93,16 @@ public class PanelsManager : MonoBehaviour
             //The only way this "else" statement gets called is if we are out of the array,
             // and that means we're done clicking through the panels.
             // So now it's time to check if the potion is correct in the Global Variables script
-            //
+            // For now, it's just a log call
             Debug.Log("End of Panels; check if potion correct");
-            // -- if it is, LoadScene("Game Over - Win"); else, LoadScene("GameOver - Lose");
+            // -- if the potion is correct, LoadScene("Game Over - Win");
+            // -- else, LoadScene("GameOver - Lose");
         }
 
         //In the Update function, we can also add effects related to specific panels. For instance:
+        //IF we're on panel 0, which involves knocking at the door,
+        //then we can run a "KnockKnock" co-routine, which plays a knocking sound
+        
         //IF we're on panel 1, which ends with "Hold, there is forty ducats," 
         //then we can run the coroutine "FortyDucats" which spawns a prefab after a few seconds' pause.
         if (panelIndex == 1)
@@ -82,10 +115,17 @@ public class PanelsManager : MonoBehaviour
 
     IEnumerator FortyDucats(float delay)
     {
-        Debug.Log("CoRoutine Started");
+        Debug.Log("CoRoutine FortyDucats started");
         yield return new WaitForSeconds(delay);
         Instantiate(fortyDucatsPrefab, spawnPoint, transform.rotation);
         //We can also eventually add an AudioSource here and play a gold clinking sound.
+        fortyDucatsSound.Play();
+    }
+
+    IEnumerator KnockKnock()
+    {
+        Debug.Log("KnockKnock started");
+        knockKnockSound.Play();yield return new WaitForSeconds(0);
         
     }
 }
