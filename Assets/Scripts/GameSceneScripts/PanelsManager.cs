@@ -13,7 +13,9 @@ public class PanelsManager : MonoBehaviour
     public GameObject[] PanelsArray;
     public int panelIndex;
     public bool panelsOn;
+    
     public BoolVariable PotionIsDone;
+    public BoolVariable PotionIsCorrect;
     public GameObject fortyDucatsPrefab;
     public AudioSource fortyDucatsSound;
     public AudioSource knockKnockSound;
