@@ -13,7 +13,6 @@ public class PanelsManager : MonoBehaviour
 {
     public GameObject[] PanelsArray;
     public int panelIndex;
-    public bool panelsOn;
     
     public BoolVariable PotionIsDone;
     public BoolVariable PotionIsCorrect;
@@ -33,7 +32,6 @@ public class PanelsManager : MonoBehaviour
         {
             i.SetActive(false);
         }
-        panelsOn = false;
         panelIndex = 0;
     }
 
@@ -98,7 +96,7 @@ public class PanelsManager : MonoBehaviour
             // So now it's time to check if the potion is correct in the Global Variables script
             // For now, it's just a log call
             Debug.Log("End of Panels; check if potion correct then load Game Over");
-            // -- if the potion is correct, LoadScene("Game Over - Win");
+            
             
             
         }
@@ -121,7 +119,11 @@ public class PanelsManager : MonoBehaviour
     {
         Debug.Log("CoRoutine FortyDucats started");
         yield return new WaitForSeconds(delay);
-        Instantiate(fortyDucatsPrefab, spawnPoint, transform.rotation);
+        
+        for (int i = 0 ; i < 40; i++)
+        {
+            Instantiate(fortyDucatsPrefab, spawnPoint, transform.rotation);
+        }
         //We can also eventually add an AudioSource here and play a gold clinking sound.
         fortyDucatsSound.Play();
     }
@@ -132,4 +134,5 @@ public class PanelsManager : MonoBehaviour
         knockKnockSound.Play();yield return new WaitForSeconds(0);
         
     }
+
 }

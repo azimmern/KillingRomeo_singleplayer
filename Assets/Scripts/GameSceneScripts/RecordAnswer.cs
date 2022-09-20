@@ -18,7 +18,7 @@ public class RecordAnswer : MonoBehaviour
 
     public void StoreYesAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; //adding 1 to index to reflect panel number in hierarchy
+        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex;
         if (panelCount == 6)
         {
             DoYouKnowThisClient.value = true;
@@ -52,7 +52,7 @@ public class RecordAnswer : MonoBehaviour
 
     public void StoreNoAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; //adding 1 to index to reflect panel number in hierarchy
+        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; 
         if (panelCount == 6)
         {
             DoYouKnowThisClient.value = false;
@@ -86,18 +86,18 @@ public class RecordAnswer : MonoBehaviour
 
     public void StoreStringAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; //adding 1 to index to reflect panel number in hierarchy
+        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; 
         
         if (panelCount == 9)
         {
-            HowMuchIs40Ducats.value = GetComponentInChildren<TextMeshProUGUI>().text as string;
-            Debug.Log("40 Ducats = " + HowMuchIs40Ducats.value);
+            HowMuchIs40Ducats.value = GetComponentInChildren<TextMeshProUGUI>().text;
+            Debug.Log("40 Ducats = " + HowMuchIs40Ducats.value.ToString());
         }
 
         if (panelCount == 12)
         {
-            WhatDoesShakespeareSay.value = GetComponentInChildren<TextMeshProUGUI>().text as string;
-            Debug.Log("Shakespeare says: " + WhatDoesShakespeareSay.value);
+            WhatDoesShakespeareSay.value = GetComponentInChildren<TextMeshProUGUI>().text;
+            Debug.Log("Shakespeare says: " + WhatDoesShakespeareSay.value.ToString());
         }
     }
 

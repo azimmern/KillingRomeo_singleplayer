@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c355a9402857fc44bb72c7746fb2db4, type: 3}
   m_Name: IsThePotionCorrect
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1
