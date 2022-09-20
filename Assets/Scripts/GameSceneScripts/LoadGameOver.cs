@@ -5,13 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LoadGameOver : MonoBehaviour
 {
-    public void LoadGameOverWinScene()
+    public BoolVariable PotionIsCorrect;
+    public BoolVariable PotionIsDone;
+    public void LoadGameOverScene()
     {
-        SceneManager.LoadScene("Game Over - Win");
+        if (PotionIsCorrect.value == true && PotionIsDone.value == true)
+        {
+            SceneManager.LoadScene("Game Over - Win");
+        }
+
+        if (PotionIsCorrect.value == false && PotionIsDone.value == true)
+        {
+            SceneManager.LoadScene("Game Over - Lose");
+        }
     }
 
-    public void LoadGameOverLoseScene()
-    {
-        SceneManager.LoadScene("Game Over - Lose");
-    }
 }

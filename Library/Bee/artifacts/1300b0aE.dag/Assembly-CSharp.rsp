@@ -379,6 +379,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Scripts/BoolVariable.cs"
+"Assets/Scripts/GameOverSceneScripts/ShowGameOverReport.cs"
 "Assets/Scripts/GameSceneScripts/CheckIfPotionCorrect.cs"
 "Assets/Scripts/GameSceneScripts/LoadGameOver.cs"
 "Assets/Scripts/GameSceneScripts/PanelsManager.cs"

@@ -5606,7 +5606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.510496, y: -0.267}
+  m_AnchoredPosition: {x: -1.119, y: -0.2185}
   m_SizeDelta: {x: -0.020993, y: 0.43700004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617598394
@@ -5931,8 +5931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.120000005, y: -0.6550004}
-  m_SizeDelta: {x: 2.731, y: 0.964}
+  m_AnchoredPosition: {x: -0.120000005, y: -0.6473}
+  m_SizeDelta: {x: 2.731, y: 0.9794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645316543
 MonoBehaviour:
@@ -5999,9 +5999,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1693469017}
-        m_TargetAssemblyTypeName: PanelsManager, Assembly-CSharp
-        m_MethodName: LoadNextPanel
+      - m_Target: {fileID: 1693469019}
+        m_TargetAssemblyTypeName: LoadGameOver, Assembly-CSharp
+        m_MethodName: LoadGameOverScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6099,8 +6099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.120000005, y: -0.32750028}
-  m_SizeDelta: {x: 2.731, y: 0.964}
+  m_AnchoredPosition: {x: -0.120000005, y: -0.2971}
+  m_SizeDelta: {x: 2.731, y: 1.0247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662498573
 MonoBehaviour:
@@ -6167,9 +6167,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1693469017}
-        m_TargetAssemblyTypeName: PanelsManager, Assembly-CSharp
-        m_MethodName: LoadNextPanel
+      - m_Target: {fileID: 1693469019}
+        m_TargetAssemblyTypeName: LoadGameOver, Assembly-CSharp
+        m_MethodName: LoadGameOverScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7257,7 +7257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.89, y: -0.08}
+  m_AnchoredPosition: {x: -1.118, y: -0.08}
   m_SizeDelta: {x: 0.74550056, y: 0.4365003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783235261
@@ -7273,9 +7273,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelsManager: {fileID: 1693469016}
-  DoYouKnowThisClient: {fileID: 11400000, guid: d7e93f905155d9044b07557786531fea,
+  DoYouKnowThisClient: {fileID: 0}
+  DoYouTrustThisClient: {fileID: 11400000, guid: 477680c1c9551334681ad773632861cc,
     type: 2}
-  DoYouTrustThisClient: {fileID: 0}
   DoYouTrustYourPotion: {fileID: 0}
   HowMuchIs40Ducats: {fileID: 0}
   DoYouAcceptPenaltyOfDeath: {fileID: 0}
@@ -7930,7 +7930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.89, y: -0.08}
+  m_AnchoredPosition: {x: -1.139, y: -0.08}
   m_SizeDelta: {x: 0.74550056, y: 0.4365003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &882452563
@@ -8728,6 +8728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9fa2525c7a9ed48b78e48178ac77bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PotionIsCorrect: {fileID: 0}
+  PotionIsDone: {fileID: 0}
 --- !u!114 &957006984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11047,7 +11049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.98, y: 0.000000059604645}
+  m_AnchoredPosition: {x: -0.072, y: 0.000000059604645}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298174167
@@ -11703,9 +11705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelsManager: {fileID: 1693469016}
-  DoYouKnowThisClient: {fileID: 11400000, guid: d7e93f905155d9044b07557786531fea,
+  DoYouKnowThisClient: {fileID: 0}
+  DoYouTrustThisClient: {fileID: 11400000, guid: 477680c1c9551334681ad773632861cc,
     type: 2}
-  DoYouTrustThisClient: {fileID: 0}
   DoYouTrustYourPotion: {fileID: 0}
   HowMuchIs40Ducats: {fileID: 0}
   DoYouAcceptPenaltyOfDeath: {fileID: 0}
@@ -13271,7 +13273,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What does Shakespeare's apothecary say in the actual play?
+  m_text: What does Shakespeare's apothecary say in the play?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e475f91b1f7164642a3f378c0e7e3e06, type: 2}
   m_sharedMaterial: {fileID: 2639801103937068272, guid: e475f91b1f7164642a3f378c0e7e3e06,
@@ -13813,7 +13815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.79, y: -0.3}
+  m_AnchoredPosition: {x: 0.5105, y: -0.267}
   m_SizeDelta: {x: -0.020993, y: 0.437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663998428
@@ -13990,6 +13992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693469018}
   - component: {fileID: 1693469017}
+  - component: {fileID: 1693469019}
   m_Layer: 0
   m_Name: PanelsManager
   m_TagString: Untagged
@@ -14025,7 +14028,7 @@ MonoBehaviour:
   panelIndex: 0
   panelsOn: 0
   PotionIsDone: {fileID: 11400000, guid: fa62e7da8b6bb9e49b4c94caa5b6a6cb, type: 2}
-  PotionIsCorrect: {fileID: 0}
+  PotionIsCorrect: {fileID: 11400000, guid: 0b2ec730d0b59ef4ba4bacbc9ff4ea4a, type: 2}
   fortyDucatsPrefab: {fileID: 6588566754440948234, guid: 96cfd2d4fa4e09141a770209442f0cbe,
     type: 3}
   fortyDucatsSound: {fileID: 443157980}
@@ -14045,6 +14048,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1693469019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693469016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9fa2525c7a9ed48b78e48178ac77bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PotionIsCorrect: {fileID: 0}
+  PotionIsDone: {fileID: 0}
 --- !u!1 &1700971492
 GameObject:
   m_ObjectHideFlags: 0
@@ -14257,7 +14274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.89, y: -0.08}
+  m_AnchoredPosition: {x: -1.165, y: -0.08}
   m_SizeDelta: {x: 0.74550056, y: 0.4365003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720320539
@@ -14905,8 +14922,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.120000005, y: 0.000000059604645}
-  m_SizeDelta: {x: 2.731, y: 0.964}
+  m_AnchoredPosition: {x: -0.120000005, y: 0.0227}
+  m_SizeDelta: {x: 2.731, y: 1.0094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1809880020
 MonoBehaviour:
@@ -14973,9 +14990,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1693469017}
-        m_TargetAssemblyTypeName: PanelsManager, Assembly-CSharp
-        m_MethodName: LoadNextPanel
+      - m_Target: {fileID: 1693469019}
+        m_TargetAssemblyTypeName: LoadGameOver, Assembly-CSharp
+        m_MethodName: LoadGameOverScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15519,7 +15536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.79, y: -0.3}
+  m_AnchoredPosition: {x: 1.017001, y: -0.26700002}
   m_SizeDelta: {x: -0.020993, y: 0.437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859490498
@@ -15956,7 +15973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.98, y: 0.000000059604645}
+  m_AnchoredPosition: {x: -0.00000047683716, y: 0.000000059604645}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920739449
@@ -16719,7 +16736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.510496, y: -0.267}
+  m_AnchoredPosition: {x: -1.369, y: -0.267}
   m_SizeDelta: {x: -0.020993, y: 0.43700004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960102309
@@ -17020,7 +17037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.98, y: 0.000000059604645}
+  m_AnchoredPosition: {x: -0.036, y: 0.000000059604645}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1983242463
@@ -17817,6 +17834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c9fa2525c7a9ed48b78e48178ac77bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PotionIsCorrect: {fileID: 0}
+  PotionIsDone: {fileID: 0}
 --- !u!114 &2065335201
 MonoBehaviour:
   m_ObjectHideFlags: 0

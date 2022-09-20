@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 //This script manages the whole interaction between the player and the UI panels.
 //The main component is a GameObject[] array of panels. Each panel contains snippets of Shakespeare's dialogue
@@ -96,9 +97,10 @@ public class PanelsManager : MonoBehaviour
             // and that means we're done clicking through the panels.
             // So now it's time to check if the potion is correct in the Global Variables script
             // For now, it's just a log call
-            Debug.Log("End of Panels; check if potion correct");
+            Debug.Log("End of Panels; check if potion correct then load Game Over");
             // -- if the potion is correct, LoadScene("Game Over - Win");
-            // -- else, LoadScene("GameOver - Lose");
+            
+            
         }
 
         //In the Update function, we can also add effects related to specific panels. For instance:

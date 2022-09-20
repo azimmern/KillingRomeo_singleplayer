@@ -18,7 +18,7 @@ public class RecordAnswer : MonoBehaviour
 
     public void StoreYesAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex + 1; //adding 1 to index to reflect panel number in hierarchy
+        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; //adding 1 to index to reflect panel number in hierarchy
         if (panelCount == 6)
         {
             DoYouKnowThisClient.value = true;
@@ -86,7 +86,7 @@ public class RecordAnswer : MonoBehaviour
 
     public void StoreStringAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex + 1; //adding 1 to index to reflect panel number in hierarchy
+        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; //adding 1 to index to reflect panel number in hierarchy
         
         if (panelCount == 9)
         {
