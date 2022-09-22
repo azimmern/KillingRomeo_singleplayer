@@ -121,7 +121,6 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
--define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CROSS_PLATFORM_INPUT
 -define:MOBILE_INPUT
 -define:UNITY_POST_PROCESSING_STACK_V2
@@ -378,7 +377,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scripts/BoolVariable.cs"
 "Assets/Scripts/GameOverSceneScripts/ShowGameOverReport.cs"
 "Assets/Scripts/GameSceneScripts/CheckIfPotionCorrect.cs"
 "Assets/Scripts/GameSceneScripts/LoadGameOver.cs"
@@ -387,8 +385,9 @@
 "Assets/Scripts/Global Scripts/LoadGame.cs"
 "Assets/Scripts/Global Scripts/LoadMainMenu.cs"
 "Assets/Scripts/Global Scripts/LoadTutorial.cs"
-"Assets/Scripts/IntVariable.cs"
-"Assets/Scripts/StringVariable.cs"
+"Assets/Scripts/Scriptable Objects/BoolVariable.cs"
+"Assets/Scripts/Scriptable Objects/IntVariable.cs"
+"Assets/Scripts/Scriptable Objects/StringVariable.cs"
 "Assets/Unity Particle Pack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
 "Assets/Unity Particle Pack/Shared/Ramps/Runtime/RampAsset.cs"
 "Assets/Unity Particle Pack/Shared/Scripts/AdjustTimeScale.cs"

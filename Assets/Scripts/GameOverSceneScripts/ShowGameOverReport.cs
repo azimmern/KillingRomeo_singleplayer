@@ -59,14 +59,14 @@ public class ShowGameOverReport : MonoBehaviour
             Answer3.GetComponent<TextMeshProUGUI>().text = "No";
         }
 
-        if (DoYouAcceptPenaltyOfDeath == true)
+        if (DoYouAcceptPenaltyOfDeath.value == true)
         {
             Answer5.GetComponent<TextMeshProUGUI>().text = "Yes";
         } else {
             Answer5.GetComponent<TextMeshProUGUI>().text = "No";
         }
 
-        if (DoYouBelievePovertyExcusesYou == true)
+        if (DoYouBelievePovertyExcusesYou.value == true)
         {
             Answer6.GetComponent<TextMeshProUGUI>().text = "Yes";
         } else {
@@ -80,23 +80,23 @@ public class ShowGameOverReport : MonoBehaviour
         {
             Answer7.GetComponent<TextMeshProUGUI>().text = "Correct! The play says: 'My poverty, not my will consents.'";
         } else {
-            Answer7.GetComponent<TextMeshProUGUI>().text = "Sorry, Shakespeare did not say: " + WhatDoesShakespeareSay.value.ToString() + ".";
+            Answer7.GetComponent<TextMeshProUGUI>().text = "Sorry, Shakespeare did not say: " + WhatDoesShakespeareSay.value + ".";
         }
 
         if (HowMuchIs40Ducats.value == "$5,953")
         {
             Answer4.GetComponent<TextMeshProUGUI>().text = "Correct! 40 gold ducats is equivalent to $5,953 today.";
         } else {
-            Answer4.GetComponent<TextMeshProUGUI>().text = "Sorry, 40 gold ducats is equivalent to $5,953, not " + HowMuchIs40Ducats.value.ToString() + "." ;
+            Answer4.GetComponent<TextMeshProUGUI>().text = "Sorry, 40 gold ducats is equivalent to $5,953, not " + HowMuchIs40Ducats.value + "." ;
         }
     }
 
     public void ShowEndReport()
     {
-        if(PotionIsCorrect == true)
+        if(PotionIsCorrect.value == true)
         {
             Title.GetComponent<TextMeshProUGUI>().text = "You got the potion right!";
-        } else if (PotionIsCorrect == false) 
+        } else if (PotionIsCorrect.value == false) 
         {
             Title.GetComponent<TextMeshProUGUI>().text = "You got the potion wrong.";
         }

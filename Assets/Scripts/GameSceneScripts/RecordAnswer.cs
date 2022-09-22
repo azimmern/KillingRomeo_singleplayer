@@ -84,21 +84,30 @@ public class RecordAnswer : MonoBehaviour
         }
     }
 
-    public void StoreStringAnswer()
+    public void StoreDucatsAnswer()
     {
-        int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; 
+        //int panelCount = PanelsManager.GetComponent<PanelsManager>().panelIndex; 
         
-        if (panelCount == 9)
-        {
-            HowMuchIs40Ducats.value = GetComponentInChildren<TextMeshProUGUI>().text;
-            Debug.Log("40 Ducats = " + HowMuchIs40Ducats.value.ToString());
-        }
+        HowMuchIs40Ducats.value = GetComponentInChildren<TextMeshProUGUI>().text;
+        Debug.Log(GetComponentInChildren<TextMeshProUGUI>().text);
 
-        if (panelCount == 12)
-        {
-            WhatDoesShakespeareSay.value = GetComponentInChildren<TextMeshProUGUI>().text;
-            Debug.Log("Shakespeare says: " + WhatDoesShakespeareSay.value.ToString());
-        }
+        // if (panelCount == 9)
+        // {
+        //     HowMuchIs40Ducats.value = GetComponentInChildren<TextMeshProUGUI>().text;
+        //     Debug.Log("40 Ducats = " + HowMuchIs40Ducats.value.ToString() +".");
+        // }
+
+        // if (panelCount == 12)
+        // {
+        //     WhatDoesShakespeareSay.value = GetComponentInChildren<TextMeshProUGUI>().text;
+        //     Debug.Log("Shakespeare says: " + WhatDoesShakespeareSay.value.ToString() + ".");
+        // }
+    }
+
+    public void StoreShakespeareAnswer()
+    {
+        WhatDoesShakespeareSay.value = GetComponentInChildren<TextMeshProUGUI>().text;
+        Debug.Log(GetComponentInChildren<TextMeshProUGUI>().text);
     }
 
 
