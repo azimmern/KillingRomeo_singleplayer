@@ -238,7 +238,7 @@ QualitySettings:
     - Server
     - Windows Store Apps
   m_PerPlatformDefaultQuality:
-    Android: 0
+    Android: 4
     Server: 0
     Standalone: 0
     WebGL: 0

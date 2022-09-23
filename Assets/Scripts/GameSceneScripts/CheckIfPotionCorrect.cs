@@ -6,7 +6,6 @@ public class CheckIfPotionCorrect : MonoBehaviour
 {
     public BoolVariable PotionIsCorrect;
     public BoolVariable PotionIsDone;
-    public GameObject GlassBottle;
     public GameObject[] PowderedIngredients;
     public List<GameObject> SteepingIngredients;
     
@@ -42,7 +41,7 @@ public class CheckIfPotionCorrect : MonoBehaviour
     // WHen the Glass Bottle enters the water, checks to see if there are powdered ingredients in the scene
     // If so, set PotionIsDone to true;
     // If not, leave PotionsIsDone as false.
-        if (other.tag == "GlassBottle")
+        if (other.tag == "Bottle")
         {
             SetPotionDone();   
         }
@@ -52,10 +51,10 @@ public class CheckIfPotionCorrect : MonoBehaviour
     // Store the Ingredient gameObject in a list called "Steeping Ingredients"
     // If there's a single INCORRECT powdered ingredient, then set PotionIsCorrect.value = false
 
-        if (other.gameObject.tag.ToString().Contains("Ingredient") == true)
+        if (other.gameObject.tag.ToString().Contains("Powder") == true)
         {
             SteepingIngredients.Add(other.gameObject);
-            if (other.tag != "CorrectPowderedIngredient")
+            if (other.tag != "GroundPowder")
             {
                 SetPotionIncorrect();
             } 

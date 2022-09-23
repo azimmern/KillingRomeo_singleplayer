@@ -191,7 +191,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: -0.007890224, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &140591410
@@ -489,7 +489,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: How much is forty ducats?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_margin: {x: 0.00001335144, y: 0, z: -0.023471355, w: -0.048189163}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &252973090
@@ -625,7 +625,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: What did Shakespeare say?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_margin: {x: 0.00001335144, y: 0, z: -0.023471355, w: -0.048189163}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &284165537
@@ -761,7 +761,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you trust this client?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -826,7 +826,7 @@ MonoBehaviour:
   m_margin: {x: 0.008897781, y: 0, z: -0.023471355, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &387369220
@@ -1140,7 +1140,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1174,7 +1174,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: 0.102268696, w: 0.2630142}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &675192054
@@ -1296,7 +1296,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: do you accept the penalty of death?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_margin: {x: 0.00001335144, y: 0, z: -0.023471355, w: -0.048189163}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &709550315
@@ -1440,7 +1440,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: 0.102268696, w: 0.2630142}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &942514931
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1610,7 +1610,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1641,7 +1641,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: -0.118049145, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &945475660
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Title
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1746,7 +1746,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
   m_margin: {x: 0.04497242, y: -4.405096, z: -0.082892895, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &973524675
@@ -1848,7 +1848,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -1882,7 +1882,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: 0.102268696, w: 0.2630142}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1018003571
@@ -2942,7 +2942,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -2976,7 +2976,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3007,7 +3007,7 @@ MonoBehaviour:
   m_margin: {x: 0.1949768, y: 0, z: -0.007889271, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1485947641
@@ -3285,7 +3285,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Does your poverty excuse you?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3350,7 +3350,7 @@ MonoBehaviour:
   m_margin: {x: 0.00001335144, y: 0, z: -0.023471355, w: -0.048189163}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1711486926
@@ -3497,7 +3497,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you know this client?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -3531,7 +3531,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3562,7 +3562,7 @@ MonoBehaviour:
   m_margin: {x: 0.16382217, y: 0, z: -0.02347231, w: 0.002295494}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1840635190
@@ -3641,7 +3641,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: DEFAULT ANSWER 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -3675,7 +3675,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 8
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3706,7 +3706,7 @@ MonoBehaviour:
   m_margin: {x: 0.08481789, y: 0, z: 0.102268696, w: 0.2630142}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1997768772
@@ -3890,7 +3890,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you trust your potion & recipe?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3aeccd2d3e308fe4e90b86537dfec6e0, type: 2}
   m_sharedMaterial: {fileID: -4536242617746042647, guid: 192bea4eaa318ec4ebc2d5f05fb3cd2b,
     type: 2}
   m_fontSharedMaterials: []
@@ -3924,7 +3924,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 33
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -3955,7 +3955,7 @@ MonoBehaviour:
   m_margin: {x: 0.008897781, y: 0, z: 0.05399084, w: -0.024299622}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2128108240
